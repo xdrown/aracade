@@ -225,91 +225,47 @@ client.on("message", message => {
 -⚠ صيانه كل يوم
 -💵 مجاني بل كامل 
 -📚 البوت عربي و سيتم اضافه اللغه النكليزية
-
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
-
 💎『اوامر عامة』💎
                         
 💎3server 『معلومات عن السيرفر』                      
-
 💎3servers 『علشان تشوف البوت بكم سيرفر اون لاين 』  
-
 💎3bot 『لمعرف البوت بكم سيرفر』
-
 💎3date 『لمعرفه التاريخ』
-
 💎3ping 『لمعرفه سرعه البوت』
-
 💎3members 『معلومات عن الاعضاء』
-
 💎3embed 『خاصيه غرد لكن بغير طريقه』
-
 💎3say 『لي يكرر الكلام الذي تقوله』
-
 💎3animal  『كود لي اضهار صور  للحيوانات』
-
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
-
 👑『اوامر ادارية』👑
-
 👑3rooms 『لمعرفه عدد رومات السيرفر』
-
 👑3ban 『لتعطي شخص باند』
-
 👑3kick 『لتعطي شخص كيك』
-
 👑3clear 『لمسح الشات برقم』
-
 👑3edit  『لتعديل رساله 』
-
 👑3ct  مـلاحظه: الاسم انت تختاره『لي انشاء روم كتابي』
-
 👑3cv  مـلاحظه: الاسم انت تختاره『لي انشاء روم صوتي』
-
 👑XDdelet  『كـود يحذف الـروم سواء صوتي او كتابي』
-
 👑3mute  『كـود الميوت』
-
 👑3unmute  『كـود فك الميوت』
-
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
-
 🎲『القرعة』🎲
-
 🎲XDroll 1   『[giveaway من 1 الى 25』
-
 🎲XDroll 2   『giveaway من 1 الى 50』
-
 🎲XDroll 3   『giveaway من 1 الى 75』
-
 🎲XDroll 4   『giveaway من 1 الى 100』
-
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
-
 🎴『اوامر الصور』🎴
-
 🎴XDavatar 『لي عرض صورتك او صوره اي شخص』
-
 🎴XDimage 『لي عرض صوره السيرفر』
-
 🎴soon
-
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
-
 💎『الدعم الفني والمساعدة』💎
-
 XDinvite | القسم الاول لي اضافه البوت 
-
 XDsupport| القسم الثاني  الدعم الفني و المساعدة
-
 القسم الثالث مصمم البوت | Ahmed Atia#4432
-
-
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
-
-
-
-
 `)
 
 
@@ -364,7 +320,7 @@ if (message.content.startsWith("XDcv")) {
 
 
 
-var prefix = "XD";
+var prefix = "3atia";
 
 client.on('message', message => {
   if (message.author.bot) return;
@@ -460,7 +416,7 @@ client.on('message', message => {
     }
 });
 
-  var prefix = "XD";
+  var prefix = "3atia";
 var cats = ["https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg","http://www.dogbazar.org/wp-content/uploads/2014/09/british-bull-dog-puppies.jpg","http://cdn2-www.dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/standing-7.jpg","http://cdn.akc.org/Marketplace/Breeds/German_Shepherd_Dog_SERP.jpg","https://animalso.com/wp-content/uploads/2016/12/black-german-shepherd_2.jpg","https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpg","https://www.petfinder.com/wp-content/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg","http://www.i-love-cats.com/images/2015/04/12/cat-wallpaper-38.jpg","https://www.aspca.org/sites/default/files/cat-care_urine-marking_main-image.jpg","https://s-media-cache-ak0.pinimg.com/originals/f0/3b/76/f03b7614dfadbbe4c2e8f88b69d12e04.jpg","http://www.rd.com/wp-content/uploads/sites/2/2016/04/15-cat-wants-to-tell-you-attention.jpg","https://www.thelocal.de/userdata/images/article/fa6fd5014ccbd8f4392f716473ab6ff354f871505d9128820bbb0461cce1d645.jpg","https://www.adelaidezoo.com.au/wp-content/uploads/sites/2/animals/GiantPanda3Slider.jpg","http://imagem.band.com.br/f_230168.jpg"]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
@@ -472,7 +428,7 @@ message.channel.sendEmbed(cat);
 });
 
 client.on('message', message => {
-var prefix = "XD";
+var prefix = "3atia";
 
     if (message.author.id === client.user.id) return;
     if (message.guild) {
@@ -541,7 +497,7 @@ client.on('message', message => {
     }
 });
 
-  var prefix = "XD";
+  var prefix = "3atia";
   const HeRo = new Discord.Client();
   client.on('message', message => {
       if (message.content === prefix + "date") {
@@ -634,7 +590,7 @@ client.on('ready', () => {
 }); 
 
 client.on("message", message => {
-    var prefix = "XD";
+    var prefix = "3atia";
             var args = message.content.substring(prefix.length).split(" ");
             if (message.content.startsWith(prefix + "clear")) {
  if (!args[1]) {
@@ -1078,7 +1034,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-var prefix = "XD";
+var prefix = "3atia";
 
 if (!message.content.startsWith(prefix)) return;
 var args = message.content.split(' ').slice(1);
