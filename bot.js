@@ -213,7 +213,7 @@ const secreT = [
 
 
 client.on("message", message => {
- if (message.content === "3atia2") {
+ if (message.content === "3help") {
         message.react("😘")
            message.react("😵")
   const embed = new Discord.RichEmbed() 
@@ -685,7 +685,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (true) {
 if (message.content === 'رابط') {
-      message.author.send(' |https://discord.gg/QUf4W9k| رابط السرفر').catch(e => console.log(e.stack));
+      message.author.send(' |https://discord.gg/Xz58HvE| رابط السرفر').catch(e => console.log(e.stack));
 
     }
    } 
