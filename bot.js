@@ -28,7 +28,7 @@ client.on("message", message => {
              
      if(!message.channel.guild) return;
 
- if (message.content === "XDhelp") {
+ if (message.content === "3atia") {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
@@ -36,7 +36,7 @@ client.on("message", message => {
       
       .addField("Ahmed Atia#4432『مصمم البوت』", true)
       
-      .addField("『3atia』😘『عشان تعرف الاوامر』😵", true)
+      .addField("『3atia2』😘『عشان تعرف الاوامر』😵", true)
       
       .addField("『🤑』『قريبا سوف نضيف المزيد و المزيد من الاوامر 』『😉』", true)
       
@@ -213,7 +213,7 @@ const secreT = [
 
 
 client.on("message", message => {
- if (message.content === "XhelpD") {
+ if (message.content === "3atia2") {
         message.react("😘")
            message.react("😵")
   const embed = new Discord.RichEmbed() 
